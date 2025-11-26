@@ -13,10 +13,7 @@ from typing import Dict, List, Optional, Tuple
 import json
 
 
-# client = OpenAI(
-#     base_url="https://api.groq.com/openai/v1",
-#     api_key="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"
-# )
+
 client = OpenAI(api_key=os.getenv("OPENAI_API"))
 MODEL_NAME = "gpt-5-mini"
 SERP_API_KEY = "bcbe76132dcf615504d6b69af3145f65b5ecfc43501d4e813b60c99337e44312"
